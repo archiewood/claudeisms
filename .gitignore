@@ -4,7 +4,7 @@
 *
 
 !.gitignore
-!write-up.md
+!README.md
 !scripts/
 !scripts/*.sql
 !scripts/*.py
