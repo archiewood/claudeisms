@@ -1,0 +1,10 @@
+# GitHub Pages. With no index.md, Jekyll renders README.md as the site's
+# front page, so the write-up is the page.
+title: A List of Claudeisms
+description: Which words does Claude Code overuse? Word frequency analysis of my own sessions.
+theme: jekyll-theme-primer
+
+# Scripts and data are in the repo but are not pages.
+exclude:
+  - scripts/
+  - Makefile

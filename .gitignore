@@ -5,6 +5,7 @@
 
 !.gitignore
 !README.md
+!_config.yml
 !scripts/
 !scripts/*.sql
 !scripts/*.py
