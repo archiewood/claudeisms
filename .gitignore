@@ -1,0 +1,22 @@
+# Default to ignoring everything, then allow back only what is published.
+# The transcripts, the baselines and the exclude list all stay local: this
+# repo is scripts + one result + the write-up.
+*
+
+!.gitignore
+!write-up.md
+!scripts/
+!scripts/*.sql
+!scripts/*.py
+
+# Only the final ranking, not the intermediate comparisons.
+!outputs/
+outputs/*
+!outputs/claudeisms.csv
+
+# Never: data/interim holds the full text of private sessions (including
+# anything pasted into them), and data/exclude.txt is a list of our vendors.
+data/
+
+__pycache__/
+*.pyc
