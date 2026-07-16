@@ -1,5 +1,7 @@
 # A List of Claudeisms
 
+*For list see [`claudeisms.csv`](claudeisms.csv)*
+
 > "load-bearing"
 > > Claude Code - always
 
@@ -39,7 +41,7 @@ So I found a comparison against humans writing about code. BigQuery has 1.72 bil
 
 I ranked by word frequency ratio, then removed an exclude list of words specific to my own work which mainly contains proper nouns for our names, products and tools we use
 
-Full ranking, 144 words at 20x or above, is in [`outputs/claudeisms.csv`](outputs/claudeisms.csv). These are the top 12
+Full ranking, 144 words at 20x or above, is in [`claudeisms.csv`](claudeisms.csv). These are the top 12
 
 | word | claude /M | Stack Overflow Comments /M | ratio |
 |---|---|---|---|

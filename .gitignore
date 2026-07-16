@@ -9,10 +9,9 @@
 !scripts/*.sql
 !scripts/*.py
 
-# Only the final ranking, not the intermediate comparisons.
-!outputs/
-outputs/*
-!outputs/claudeisms.csv
+# The final ranking only. outputs/ holds intermediate comparisons and stays local.
+!claudeisms.csv
+outputs/
 
 # Never: data/interim holds the full text of private sessions (including
 # anything pasted into them), and data/exclude.txt is a list of our vendors.
